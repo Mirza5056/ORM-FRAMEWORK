@@ -1,0 +1,6 @@
+{
+    "jdbc_Driver" : "com.mysql.cj.jdbc.Driver",
+    "connection_url" : "jdbc:mysql://localhost:3306/tmschool",
+    "user_name": "tm",
+    "password" :"tm"
+}

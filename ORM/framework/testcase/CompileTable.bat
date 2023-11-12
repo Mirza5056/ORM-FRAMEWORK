@@ -1,0 +1,1 @@
+javac -classpath c:\mysqljar\*;c:\gson\*;build\libs\testcase.jar;. %1

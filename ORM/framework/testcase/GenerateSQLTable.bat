@@ -1,0 +1,1 @@
+java -classpath c:\mysqljar\*;c:\gson\*;build\libs\testcase.jar;. com.kamran.akthar.pojo.start
