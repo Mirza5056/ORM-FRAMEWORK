@@ -1,0 +1,26 @@
+1. How to use this ORM Framework First go to testcase folder and open conf.json file
+2. According to you give database name what you have provided username and password 
+
+                        Now Type Gradle Build
+
+3. I have made bat file in which i have put all classpath to generate tables you just type 
+
+                        GenerateSQLTable 
+
+4. It will generate all tables According to your database
+5. How to insert data .. 
+    Suppose i want to insert data in Course table which have code and title 
+            DataManager dm=DataManager.getDataManager();
+            Course c=new Course();
+            c.setTitle('C++'); // code is auto_increment
+            dm.begim(); 
+            dm.save(c);
+
+6. To Compile code i have made bat file you just type
+            CompileTable.bat  and Give name which you want to Compile
+
+7. After that you want to execute code for that i have made a bat file for you..
+            ExecuteTable.bat and give class name suppose it have psp or course1 like 
+            if you write class with public then you have to give its proper name when you create 
+            file suppose class name have psp if it have written with public then you have to make 
+            psp.java  in order to run file...
